@@ -3,3 +3,43 @@
 @import "tailwindcss/utilities.css";
 
 @import "nativewind/theme";
+
+@theme {
+  --color-background: var(--color-zinc-50);
+  --color-foreground: var(--color-zinc-900);
+
+  --color-primary: var(--color-zinc-700);
+  --color-primary-foreground: var(--color-zinc-50);
+
+  --color-muted: var(--color-zinc-100);
+  --color-muted-foreground: var(--color-zinc-500);
+
+  --color-card: var(--color-zinc-50);
+  --color-card-foreground: var(--color-zinc-900);
+
+  --color-border: var(--color-zinc-200);
+
+  --color-destructive: var(--color-red-500);
+  --color-destructive-foreground: var(--color-zinc-50);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-zinc-900);
+    --color-foreground: var(--color-zinc-50);
+
+    --color-primary: var(--color-zinc-300);
+    --color-primary-foreground: var(--color-zinc-900);
+
+    --color-muted: var(--color-zinc-800);
+    --color-muted-foreground: var(--color-zinc-400);
+
+    --color-card: var(--color-zinc-900);
+    --color-card-foreground: var(--color-zinc-50);
+
+    --color-border: var(--color-zinc-700);
+
+    --color-destructive: var(--color-red-500);
+    --color-destructive-foreground: var(--color-zinc-50);
+  }
+}
