@@ -29,7 +29,7 @@
     --color-foreground: var(--color-zinc-100);
 
     --color-primary: var(--color-zinc-100);
-    --color-primary-foreground: var(--color-zinc-900);
+    --color-primary-foreground: var(--color-zinc-50);
 
     --color-muted: var(--color-zinc-800);
     --color-muted-foreground: var(--color-zinc-400);
